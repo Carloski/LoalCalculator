@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoalCalculator", "LoalCalculator\LoalCalculator.csproj", "{1D33ED95-6E79-481D-9911-8A7B15E5B5B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D33ED95-6E79-481D-9911-8A7B15E5B5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D33ED95-6E79-481D-9911-8A7B15E5B5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D33ED95-6E79-481D-9911-8A7B15E5B5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D33ED95-6E79-481D-9911-8A7B15E5B5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5406944B-F3FE-45FD-94CA-C307F23FFB55}
+	EndGlobalSection
+EndGlobal
