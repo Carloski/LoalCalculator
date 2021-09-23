@@ -1,0 +1,130 @@
+/* =====FONT IMPORT===== */
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:ital@1&family=Roboto:wght@300;400;700&display=swap");
+
+:root {
+    --primary-color: #1d5888;
+    --secondary-color: #DD8028;
+    --dark-color: #292929;
+    --light-color: #dff3e4;
+}
+
+body {
+  color: var(--dark-color);
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primary-color);
+}
+
+.accent {
+    color: var(--secondary-color);
+}
+
+
+main > .container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+#content {
+    min-height: 90vh;
+}
+
+.sticky-nav {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+    padding: 1rem 0;
+    padding-right: 1rem;
+    background-color: #1F1F1F;
+}
+
+
+footer, social > a {
+    color: var(--light-color);
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+footer, social > a:hover {
+    color: var(--secondary-color);
+    opacity: 0.9;
+}
+
+.copyright {
+  padding: 0;
+  margin: 0;
+}
+
+.brand {
+  font-size: 1.3rem;
+}
+
+.fas {
+  color: var(--light-color);
+}
+
+.checklist > li i {
+  color: var(--primary-color);
+}
+
+.fas:hover {
+  opacity: 0.9;
+  color: var(--secondary-color);
+}
+
+.bsicon {
+  color: #7911f2;
+}
+
+.jsicon {
+  color: #f0db4f;
+}
+
+.html5icon {
+  color: #f75421;
+}
+
+.cssicon {
+  color: #0168ba;
+}
+
+.giticon {
+  color: var(--secondary-color);
+  font-size: 25px;
+}
+
+.gitText {
+  color: var(--dark-color);
+  font-size: 20px;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.img-container {
+    width: 400px;
+}
+
+.img-container img {
+    width: 400px;
+
+}
+
+
+
+
