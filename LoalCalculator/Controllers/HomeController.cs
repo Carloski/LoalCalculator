@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using LoalCalculator.Helpers;
 
 namespace LoalCalculator.Controllers
 {
@@ -23,9 +24,34 @@ namespace LoalCalculator.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult App()
         {
-            return View();
+
+            Loan loan = new();
+
+            loan.Payment = 0.0m;
+            loan.TotalInterest = 0.0m;
+            loan.TotalCost = 0.0m;
+            loan.Rate = 3.5m;
+            loan.Amount = 15000m;
+            loan.Term = 60;
+
+
+            return View(loan);
+        }
+
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+        public IActionResult App(Loan loan) 
+        {
+
+            //Calculate the loan and get the payments
+            var loanHelper = new LoanHelper();
+
+            Loan newLoan = loanHelper.GetPayments(loan);
+
+            return View(newLoan);
         }
 
         public IActionResult Privacy()
